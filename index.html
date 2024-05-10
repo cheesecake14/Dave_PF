@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave John Lavarias Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="img/dave.png">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body style="background-image: url('img/backback.jpg');" onload="document.body.style.opacity='1'">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar sticky-top navbar-inverse">
+        <a class="navbar-brand" href="#">Dave Lavarias</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToAbout()">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToWork()">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToContact()">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container hero">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/dave.png" alt="men" class="img-fluid men">
+            </div>
+            <div class="col-lg-6">
+                <div id="about-section" class="main-detil">
+                    <p>What's up!</p>
+                    <p>My name is</p>
+                    <h1>Dave Lavarias</h1>
+                    <h4>Frontend Developer</h4>
+
+                    <div class="btn">
+                        <button type="submit" class="btn btn-primary">Download CV</button>
+                        <button type="submit" class="btn btn-success">Hire Me</button>
+                    </div>
+
+                    <div class="social mt-3">
+                        <a href="https://www.github.com/the_.abe/" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/the_.abe/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/the_.abe/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 text-center sub-btn">
+                <a href="https://www.youtube.com/channel/UCNuqarJ4lTonnw8B58456bw" class="btn btn-danger">SUBSCRIBE</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container about1">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="about-section" class="main-detil">
+                    <h2>About</h2>
+                    <p>Hello there! I'm Dave Lavarias, a passionate Frontend Developer based in The Philippines.</p>
+                    <p>With a keen eye for design and a love for coding, I strive to create beautiful and functional websites that leave a lasting impression.</p>
+                    <p>I have a strong foundation in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies to enhance my skills.</p>
+                    <p>When I'm not coding, you will see me making original songs I post on my social media accounts.</p>
+                    <audio controls autoplay muted>
+                        <source src="the_love_i_knew_.mp3" type="audio/ogg">
+                        <source src="the_love_i_knew_.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 btn">
+                <div class="work">
+                    <div id="work-section" class="main-detail">
+                        <h2>My Work</h2>
+                        <p>Welcome to my portfolio! Below are some of the projects I've worked on:</p>
+                        <ul>
+                            <li><strong>Project 1:</strong> Designed and developed a responsive website for a local paint shop.</li>
+                            <li><strong>Project 2:</strong> Created Point Of Sale system using HTML, CSS, and JavaScript.</li>
+                            <li><strong>Project 3:</strong> Collaborated on a team to build an e-commerce platform with Node.js and MongoDB.</li>
+                        </ul>
+                        <img src="img/work.png" alt="work" class="img-fluid">
+                        <p>Feel free to explore these projects further or contact me for more information!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 btn">
+                <div class="contact">
+                    <div id="contact-section" class="main-detail">
+                        <h2>Get in Touch</h2>
+                        <p>If you're interested in working together or have any questions, don't hesitate to reach out!</p>
+                        <p>You can contact me via email at <strong>davejohnlavarias@gmail.com</strong> or connect with me on social media:</p>
+                        <ul>
+                            <li><a href="https://facebook.com/davelavarias" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.linkedin.com/in/davelavarias/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://instagram.com/davelavarias" target="_blank">Instagram</a></li>
+                        </ul>
+                        <p>I look forward to hearing from you!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function scrollToAbout() {
+            document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToWork() {
+            document.getElementById('work-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToContact() {
+            document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+
+body {
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+.nav .link ul {
+    text-decoration: underline;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav .link ul a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+}
+
+.nav .link ul a.active {
+    color: #f4637b;
+}
+
+.nav .link ul a:hover {
+    color: #f4637b;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 70px;
+}
+
+.main .men {
+    max-width: 100%;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+
+.main .men:hover {
+    transform: scale(1.3);
+}
+
+.main .main-detil {
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.main .main-detil h1 {
+    font-size: 3rem;
+}
+
+.main .main-detil h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.main .btn button {
+    padding: 8px 20px;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #2a2a2a;
+    margin-right: 1rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.main .btn .btn-2 {
+    padding: 8px 30px;
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: all 2000ms ease-in-out;
+}
+
+.main .btn .btn-2:hover {
+    background: #f4637b;
+    transform: scale(1.1);
+}
+
+.social i {
+    color: #2a2a2a;
+    font-size: 2rem;
+    margin: 0 14px;
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+}
+
+.social i:hover {
+    color: #f4637b;
+}
+
+.sub-btn a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.about1,
+.work,
+.contact {
+    margin-top: 100px;
+    text-align: center;
+    border: solid 5px rgb(55, 88, 61);
+    padding: 20px;
+}
